@@ -63,7 +63,7 @@ record the readme of most used shopspring decimal func
 - **`Truncate  เอาแค่ n หลักทศนิยม`**
   truncated := d.Truncate(2)   //d: 42.4242 ได้ 42.42
 
-## Utility
+## utility
 - abs := d.Abs()
 - neg := d.Neg()
 - sign := d.Sign()          // ได้ 1 ถ้า positive
