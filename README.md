@@ -71,6 +71,7 @@ record the readme of most used shopspring decimal func
 - exp := d.Exponential()  // เอา e ยกกำลัง dของเรา(เหมือนข้างบน) //ค่า e Euler's number 2.71828
 - ceil := d.Ceil()  //ปัด d ขึ้น ได้เป็นจำนวนเต็ม   42.42 -> 43
 - floor := d.Floor()  //ปัด d ลง ได้เป็นจำนวนเต็ม   42.42 -> 42
+## math
 - power := d.Pow(3)  //dเรา ยกกำลัง3
 - sqrt := d.Sqrt()  //square root
    
