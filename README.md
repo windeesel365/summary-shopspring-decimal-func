@@ -9,7 +9,7 @@ record the readme of most used shopspring decimal func
   if err != nil {
     log.Fatal(err)
   }
-## ก่อนที่จะ Add Sub Mul Div Mod Cmp Equals GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual , conversion, rounding, utility, math; d1 d2 ต้องเป็น decimal แล้ว (คือ NewFrom ตามด้านบนมาก่อนแล้ว)
+## ก่อนที่จะ Add Sub Mul Div Mod Cmp Equals GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual , conversion, rounding, utility, math; d1 d2 ต้องเป็น decimal แล้ว (คือ NewFrom ตามด้านบนแล้ว)
 - **`Add`**
   sum := d1.Add(d2)
 - **`Sub`**
