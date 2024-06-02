@@ -5,7 +5,7 @@ record the readme of most used shopspring decimal func
 - **`NewFromFloat`**
 - d := decimal.NewFromFloat(42.42)   //แปลงfloat เป็นdecimal
 - **`NewFromString`**
-- d := decimal.NewFromString("42.42")   //แปลงString เป็นdecimal
+- d, err := decimal.NewFromString("42.42")   //แปลงString เป็นdecimal
 - if err != nil {
     log.Fatal(err)
   }
