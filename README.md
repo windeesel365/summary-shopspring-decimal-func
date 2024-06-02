@@ -56,21 +56,21 @@ record the readme of most used shopspring decimal func
 - **`RoundBank ปัดเศษตามกฎการปัดเศษของ Banker`**
   rounded := d.RoundBank(2)
 - **`RoundCash ปัดตามช่วงเศษ ปรับตามเราต้องการ`**
-  rounded1 := d1.RoundCash(5)  // d1: 2.37 ปัดเป็น 2.35 (เทียบ .35 กับ .40)
-  rounded2 := d2.RoundCash(10)  // d2: 2.37 ปัดเป็น 2.40 (เทียบ .30 กับ .40)
-  rounded3 := d3.RoundCash(25)  // d3: 2.37 ปัดเป็น 2.25 (เทียบ .25 กับ .50)
-  rounded4 := d4.RoundCash(100)  // d4: 2.37 ปัดเป็น 2.00 (เทียบ 2 กับ 3)
+- rounded1 := d1.RoundCash(5)  // d1: 2.37 ปัดเป็น 2.35 (เทียบ .35 กับ .40)
+- rounded2 := d2.RoundCash(10)  // d2: 2.37 ปัดเป็น 2.40 (เทียบ .30 กับ .40)
+- rounded3 := d3.RoundCash(25)  // d3: 2.37 ปัดเป็น 2.25 (เทียบ .25 กับ .50)
+- rounded4 := d4.RoundCash(100)  // d4: 2.37 ปัดเป็น 2.00 (เทียบ 2 กับ 3)
 - **`Truncate  เอาแค่ n หลักทศนิยม`**
   truncated := d.Truncate(2)   //d: 42.4242 ได้ 42.42
 
 ## Utility
-   abs := d.Abs()
-   neg := d.Neg()
-   sign := d.Sign()  // ได้ 1 ถ้า positive
-   exp := d.Exponential()  // เอา e ยกกำลัง dของเรา
-   exp := d.Exp()  // เอา e ยกกำลัง dของเรา(เหมือนข้างบน)
-   ceil := d.Ceil()  //ปัด d ขึ้น ได้เป็นจำนวนเต็ม   42.42 -> 43
-   floor := d.Ceil()  //ปัด d ลง ได้เป็นจำนวนเต็ม   42.42 -> 42
-   power := d.Pow(3)  //dเรา ยกกำลัง3
-   sqrt := d.Sqrt()  //square root
+- abs := d.Abs()
+- neg := d.Neg()
+- sign := d.Sign()  // ได้ 1 ถ้า positive
+- exp := d.Exponential()  // เอา e ยกกำลัง dของเรา
+- exp := d.Exp()  // เอา e ยกกำลัง dของเรา(เหมือนข้างบน)
+- ceil := d.Ceil()  //ปัด d ขึ้น ได้เป็นจำนวนเต็ม   42.42 -> 43
+- floor := d.Ceil()  //ปัด d ลง ได้เป็นจำนวนเต็ม   42.42 -> 42
+- power := d.Pow(3)  //dเรา ยกกำลัง3
+- sqrt := d.Sqrt()  //square root
    
