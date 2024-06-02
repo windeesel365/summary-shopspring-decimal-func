@@ -22,7 +22,7 @@ record the readme of most used shopspring decimal func
 - remainder := d1.Mod(d2)   e.g. 10.Mod(3) ก็ 1 remainder
 
 - **`Cmp`**
-- result := d1.Cmp(d2)   //ได้1 ถ้า d1>d2  ไม่ใช่ก็ 0
+- result := d1.Cmp(d2)    //ได้1 ถ้า d1>d2  ไม่ใช่ก็ 0
 - **`Equals`**
 - isEqual := d1.Equals(d2)   //true false
 - **`GreaterThan`**
