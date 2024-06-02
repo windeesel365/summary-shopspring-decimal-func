@@ -66,7 +66,7 @@ record the readme of most used shopspring decimal func
 ## Utility
 - abs := d.Abs()
 - neg := d.Neg()
-- sign := d.Sign()  // ได้ 1 ถ้า positive
+- sign := d.Sign()          // ได้ 1 ถ้า positive
 - exp := d.Exponential()  // เอา e ยกกำลัง dของเรา //ค่า e Euler's number 2.71828
 - exp := d.Exp()  // เอา e ยกกำลัง dของเรา(เหมือนข้างบน)
 - ceil := d.Ceil()  //ปัด d ขึ้น ได้เป็นจำนวนเต็ม   42.42 -> 43
